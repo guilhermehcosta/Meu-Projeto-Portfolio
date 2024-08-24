@@ -3,6 +3,31 @@ let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");  // Use querySelectorAll aqui
 let navLinks = document.querySelectorAll('header nav a');  // E aqui também
 
+
+
+
+const MyObserver = new IntersectionObserver((entries) =>{
+    console.log(entries)
+})
+
+const elements = document.querySelectorAll(".hidden")
+
+elements.forEach((element) => MyObserver.observe(element))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;

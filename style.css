@@ -659,6 +659,9 @@ span {
      color: #fff;
 }
 
+
+
+
 @media screen and (max-width: 1300px) {
      html {
           font-size: 55%;
@@ -910,3 +913,4 @@ span {
      transform: scale(1.05);
      transition: 0.3s ease-in-out;
  }
+
