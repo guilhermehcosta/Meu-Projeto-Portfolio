@@ -914,3 +914,7 @@ span {
      transition: 0.3s ease-in-out;
  }
 
+ .home-content, .timeline-item, .service-box, .testimonial-item, .contact {
+     visibility: hidden;
+ }
+
