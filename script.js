@@ -28,12 +28,12 @@ menuIcon.onclick = () => {
 
 window.sr = ScrollReveal({reset: true});
 
-sr.reveal(".home-content",{ duration:3000} )
+sr.reveal(".home-content",{ duration:1500} )
 
-sr.reveal(".timeline-item",{ duration:3000} )
+sr.reveal(".timeline-item",{ duration:1500} )
 
-sr.reveal(".service-box",{ duration:3000} )
+sr.reveal(".service-box",{ duration:1500} )
 
-sr.reveal(".testimonial-item",{ duration:3000} )
+sr.reveal(".testimonial-item",{ duration:1500} )
 
-sr.reveal(".contact",{ duration:3000} )
+sr.reveal(".contact",{ duration:1500} )
